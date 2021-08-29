@@ -1,0 +1,66 @@
+#regform {
+    width: 25%;
+    margin-left: 200px;
+}
+
+
+
+#iservice{
+    color: rgb(14, 126, 126);
+}
+h1{
+    color: darkcyan;
+}
+#country{
+    width: 100%;
+    text-align: center;
+ 
+}
+#fname{
+    width:45.35%;
+}
+
+#lname{
+    margin-left: 15px;
+    width: 45.35%;
+
+}
+#email{
+    width: 100%;
+   
+}
+#password{
+    width: 100%;
+}
+#cpassword{
+    width: 100%;
+}
+#address1{
+    width: 100%;
+}
+#address2{
+    width: 100%;
+
+}
+#city{
+    width:45.39%;
+}
+
+#state{
+  margin-left: 15px;
+  width: 45.39%;
+}
+#pcode{
+    width: 100%;
+ 
+}
+#mobile{
+    width: 100%;
+  
+}
+#submit{
+    margin-left: 30%;
+    margin-top: 4%;
+    background-color: darkcyan;
+    
+}
