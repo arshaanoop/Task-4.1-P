@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+
+        </title>
+        <link rel="stylesheet"  href="css/styles.css">
+    </head>
+<body>
+   <div id = "regform"> <h1 id="reg">Customer Registration</h1>
+    <h2 id="iservice">Create an iservice account</h2>
+<form  id = "serviceform" action="/Sign_up" method="POST">
+    <label for="country">Country of residence*</label><BR>
+<select id="country" name="country" placeholder="choose from the list " required>
+  <option value="India">India</option>
+  <option value="Australia">Australia</option>
+  <option value="UK">UK</option>
+  <option value="China">China</option>
+  <option value="America">America</option>
+</select><br>
+    <label for="fname">First name*</label>
+    <label for="lname" style="margin-left:125px">Last name*</label><br>
+    <input type="text" id="fname" name="fname">
+    <input type="text" id="lname" name="lname"><br>
+    <label for="email">Email*</label><br>
+    <input type="text" id="email" name="email"><br>
+    <label for="password">Password*</label><br>
+    <input type="password" id="password" name="password"><br>
+    <label for="cpassword">Confirm Password*</label><br>
+    <input type="password" id="cpassword" name="cpassword"><br>
+    <label for="Address">Address*</label><br>
+    <input type="text" id="address1" name="address1"><br>
+    <input type="text" id="address2" name="address2"><br>
+    <label for="city">City*</label>
+    <label for="state"  style="margin-left:160px">State province or Region*</label><br>
+    <input type="text" id="city" name="city">
+    <input type="text" id="state" name="state"><br>
+    <label for="post">Zip/Postal code</label><br>
+    <input type="text" id="pcode" name="pcode"><br>
+    <label for="mobile">Mobile phone number</label><br>
+    <input type="text" id="mobile" name="mobile"><br>
+    <input id ="submit" type="submit" value="Create Account">
+    </form>
+   </div>>
+</body>
+  </form></html>
